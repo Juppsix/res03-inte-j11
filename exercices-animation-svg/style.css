@@ -113,7 +113,7 @@ figure {
     to {
         transform : translateY(-20vh);
     }
-
+}
 
 
 
@@ -132,25 +132,66 @@ figure {
     max-width:40%;
     max-height:40%;
 }
-.st42:nth-of-type(1){
-    animation-delay: 1s;
-    animation-name: exo3;
-}
-.st42:nth-of-type(2){
-    animation-delay: 1s;
-    animation-name: exo3;
-}
-.st42:nth-of-type(3){
-    animation-delay: 1s;
-    animation-name: exo3;
-}
-@keyframes exo3 {
+
+
+
+@keyframes lvl1 {
      from {
-        fill: #ffffff;
+       fill: rgba(255,0,0,0);
     }
     to {
         fill: #7400b8;
     }
+}
+@keyframes lvl2 {
+     from {
+        fill: #ffffff;
+    }
+    to {
+        fill: #5e60ce;  
+    }
+}
+@keyframes lvl3 {
+     from {
+        fill: #ffffff;
+    }
+    to {
+        fill: #4ea8de;
+    }
+}
+@keyframes lvl4 {
+     from {
+        fill: #ffffff;
+    }
+    to {
+        fill: #56cfe1;
+    }
+}
+@keyframes lvl5 {
+     from {
+        fill: ;
+    }
+    to {
+        fill: #72efdd;
+    }
+}
+#eq1-1,#eq2-1,#eq3-1{
+    animation-delay: 1s;
+    animation-name: lvl1;
+    animation-duration: 4s;
+     animation-fill-mode: forwards;
+}
+#eq1-2,#eq2-2,#eq2-5,#eq3-2,#eq4-2{
+     animation-delay: 1s;
+    animation-name: lvl2;
+    animation-duration: 4s;
+     animation-fill-mode: forwards;
+}
+#eq1-3,#eq2-3,#eq3-3,#eq4-3{
+    animation-delay: 1s;
+    animation-name: lvl3;
+    animation-duration: 4s;
+     animation-fill-mode: forwards;
 }
 
 /* EXERCICE 4 */
