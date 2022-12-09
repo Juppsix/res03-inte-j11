@@ -45,10 +45,10 @@ figure {
 }
 @keyframes billy {
     from {
-        fill: rgba(255, 0, 0, 0);
+        fill: #ffffff;
     }
     to {
-        fill: rgba(157, 17, 17, 1);
+        fill: #7400b8;
     }
 }
 
@@ -57,7 +57,7 @@ figure {
 
 
 /* EXERCICE 2 */
-.bubble tiny-bubble{
+.bubble.tiny-bubble{
     animation-delay: 1s;
     animation-name: billy2;
     animation-duration: 4s;
@@ -66,12 +66,56 @@ figure {
 
 @keyframes billy2 {
     from {
-        transform : translateY(0);
+        transform : translateY(0vh);
     }
     to {
         transform : translateY(-50vh);
     }
 }
+.bubble.small-bubble{
+     animation-delay: 1s;
+    animation-name: billy3;
+    animation-duration: 4s;
+     animation-fill-mode: forwards;
+}
+@keyframes billy3 {
+    from {
+        transform : translateY(0vh);
+    }
+    to {
+        transform : translateY(-40vh);
+    }
+}
+.bubble.middle-bubble{
+    animation-delay: 1s;
+    animation-name: billy4;
+    animation-duration: 4s;
+     animation-fill-mode: forwards;
+}
+@keyframes billy4 {
+    from {
+        transform : translateY(0vh);
+    }
+    to {
+        transform : translateY(-30vh);
+    }
+}
+.bubble.big-bubble{
+     animation-delay: 1s;
+    animation-name: billy5;
+    animation-duration: 4s;
+     animation-fill-mode: forwards;
+}
+@keyframes billy5 {
+    from {
+        transform : translateY(0vh);
+    }
+    to {
+        transform : translateY(-20vh);
+    }
+
+
+
 
 /* EXERCICE 3 */
 
@@ -87,6 +131,26 @@ figure {
 #ex3 figure {
     max-width:40%;
     max-height:40%;
+}
+.st42:nth-of-type(1){
+    animation-delay: 1s;
+    animation-name: exo3;
+}
+.st42:nth-of-type(2){
+    animation-delay: 1s;
+    animation-name: exo3;
+}
+.st42:nth-of-type(3){
+    animation-delay: 1s;
+    animation-name: exo3;
+}
+@keyframes exo3 {
+     from {
+        fill: #ffffff;
+    }
+    to {
+        fill: #7400b8;
+    }
 }
 
 /* EXERCICE 4 */
